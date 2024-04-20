@@ -1,0 +1,1 @@
+To modify the client you must modify the main.txt, then after modifying it launch the build.py so that the client is put on the elf, then compile the elf and you have your client on the TCPGecko elf.
