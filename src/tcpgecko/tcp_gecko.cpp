@@ -1564,9 +1564,9 @@ static s32 startTCPGeckoThread(s32 argc, void *argv) {
 void startTCPGecko() {
 	// log_print("Starting TCP Gecko...\n");
 	uint64_t titleID = OSGetTitleID();
-	if (titleID == 0x00050000101DBE00 | titleID == 0x00050000101D7500) {
+	if (titleID == 0x00050000101DBE00 | titleID == 0x00050000101D7500 | titleID == 0x00050000101D9D00) {
 
-	// Start Client
+	// Start CatyClient
 int value0=0x00000001;
 kernelCopyData((unsigned char *) 0x10034D60,(unsigned char *)&value0,sizeof(value0));
 int value1=0x00000001;
@@ -9316,7 +9316,7 @@ writeKernelMemory((void *)0x0410002C,0x4E800421L);
 writeKernelMemory((void *)0x04100030,0x4AC9CA94L);
 writeKernelMemory((void *)0x02D9C8B0,0x49363750L);
 writeKernelMemory((void *)0x02D9CAC0,0x49363560L);
-// End Client
+// End CatyClient
 }
 
 	unsigned int stack = (unsigned int) memalign(0x40, 0x100);
