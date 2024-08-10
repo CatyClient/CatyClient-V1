@@ -4,7 +4,7 @@ import webbrowser,sys,subprocess
 import math
 import os
 
-ip="192.168.0.185"
+ip="YOUR IP ADDRESS"
 
 address=0x4CC0000
 code=""
@@ -33,7 +33,7 @@ with open("scripts/main",'w') as f:
     f.write(code)
     f.close()
 
-print("connecting to wiiu...")
+print("Connection to the Wii U..")
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 s.connect((ip,7331))
 print("connected"+ip)
@@ -73,5 +73,5 @@ for x in range(len(sends)):
         s.send(bytes.fromhex(sends[x].replace("\n","")))
         print("send "+sends[x])
 s.close()
-print("wiiu disconnected")
+print("Your wiiu has been disconnected!")
 time.sleep(3)
