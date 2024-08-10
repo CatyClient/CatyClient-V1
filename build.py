@@ -83,7 +83,7 @@ with open("src/tcpgecko/tcp_gecko.cpp") as f:
     s=f.read()
     f.close()
 
-sa=s[s.index("// Start Client")+21:s.index("// End Client")]
+sa=s[s.index("// Start CatyClient")+21:s.index("// End Client")]
 s=s.replace(sa,code)
 
 with open("src/tcpgecko/tcp_gecko.cpp",'w') as f:
