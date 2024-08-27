@@ -1,11 +1,11 @@
 <?xml version="2.0" encoding="UTF-8" standalone="yes"?>
 <app version="1">
-  <name>CatyClientV1</name>
+  <name>CatyClient-V1</name>
   <coder>cedkeChat01</coder>
   <version>1</version>
-  <url>https://github.com/CatyClient/CatyClientV1</url>
+  <url>https://github.com/CatyClient/CatyClient-V1</url>
   <release_date>04/06/2023</release_date>
   <short_description>Minecraft ModMenu Free</short_description>
-  <long_description>Minecraft Client ModMenu/Cheats/Hacks Free Created by cedkeChat01, thanks for nt-games to learn me how to create .elf with DevkitPro.</long_description>
-  <category>ModMenu/Hacks</category>
+  <long_description>Minecraft WiiU Free ModMenu Cheats Created by cedkeChat01, thanks for nt-games some help with devkit.</long_description>
+  <category>Cheats/Hacks</category>
 </app>
